@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+div {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.booked {
+  background-color: red;
+  color: white;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+input {
+  margin-top: 20px;
+  padding: 5px;
+}
